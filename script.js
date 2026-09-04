@@ -13,9 +13,6 @@ calcular.addEventListener('click', function () {
     }
     let mesAtual = data.getMonth() + 1; // data atual
     let mesNascimento = dataObjeto.getMonth() + 1; //Nascimento da pessoa
-    if (mesAtual < mesNascimento) {
-        idade = idade - 1
-    }
 
     let diaAtual = data.getDate(); // dia atual
     let diaNascimento = dataObjeto.getDate(); // dia nascimento
